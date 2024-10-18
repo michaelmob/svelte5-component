@@ -1,0 +1,20 @@
+{
+	"name": "my-svelte5-component",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite build && vite preview"
+	},
+	"dependencies": {
+		"svelte": "^5.0.0-next.269"
+	},
+	"devDependencies": {
+		"vite": "^5.4.9",
+		"vite-plugin-singlefile": "^2.0.2",
+		"@sveltejs/adapter-auto": "^3.2.5",
+		"@sveltejs/package": "^2.3.5",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0-next.8"
+	}
+}
